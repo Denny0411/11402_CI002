@@ -4,4 +4,6 @@
 
 姓名：花偉喆  
 學號：S1131557  
-系級：資訊工程學系 二B  
+系級：資訊工程學系 2B
+
+我的 Github Pages：https://denny0411.github.io
