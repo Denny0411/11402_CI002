@@ -49,7 +49,7 @@ int main()
 
 ## Result
 
-題目測資通過，wrong answer
+題目測資通過，wrong answer。
 
 ## Analysis
 
