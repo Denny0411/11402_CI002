@@ -120,4 +120,4 @@ int main()
 
 ## Result
 
-Accepted
+Accepted, 0.260s
