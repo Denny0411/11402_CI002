@@ -58,7 +58,7 @@ To `C' or not to `C', that is The Question!''
 
 目前的程式並沒有改變字元。
 
-## Analyze
+## Analysis
 
 * 輸入的是雙引號，並不是兩個單引號。
 * 將輸入的雙引號一個字元改成兩個字元，不如直接每個字元遍歷輸出，遇到雙引號再根據 pair 更改輸出。
