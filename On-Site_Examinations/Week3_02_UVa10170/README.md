@@ -1,3 +1,7 @@
+# 教訓
+
+有時候程式是對的，但只是型態宣告得不夠大，導致 overflow 啊！
+
 # On Class
 
 ```cpp
@@ -132,7 +136,12 @@ int main()
 }
 ```
 
-* `using ULL = unsigned long long int;` 進行縮寫，C++11 的寫法
+* `using ULL = unsigned long long int;` 進行縮寫，現代 C++11 之後的推薦做法
+* 其他寫法：
+```cpp
+#define ULL unsigned long long int // C 語言的寫法
+typedef unsigned long long int ULL; // 傳統 C/C++ 做法
+```
 
 ## Result
 
