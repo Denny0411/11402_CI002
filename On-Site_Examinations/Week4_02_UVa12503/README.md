@@ -6,8 +6,8 @@
 - **Problem ID:** 12503
 - **Problem Title:** Robot Instructions
 - **Problem Link:** https://onlinejudge.org/external/125/12503.pdf
-- **Source Code (Fail):** [src/your-file-name.cpp](./src/your-file-name.cpp)
-- **Source Code (Correct/Accepted):** [src/your-file-name.cpp](./src/your-file-name.cpp)
+- **Source Code (Fail):** [src/onClass.cpp](./src/onClass.cpp)
+- **Source Code (Correct/Accepted):** [src/version1.cpp](./src/version1.cpp)
 
 ## 2. Problem Statement in My Own Words
 
@@ -196,9 +196,9 @@ int main()
 
 ### Reflection
 
-- What mistake did you make?
+- What mistake did you make?  
     在輸入整行的 input 時沒有那麼熟悉。
-- What did you learn from debugging this problem?
+- What did you learn from debugging this problem?  
     既然 input 還是可預期的，就不一定要用 `getline()` 處理整行 input，可以把他們用 cin 跟多個符合預期型態的變數「接」出來。
-- If you solve a similar problem again, what will you do better?
+- If you solve a similar problem again, what will you do better?  
     需要熟悉 input 的處理。
