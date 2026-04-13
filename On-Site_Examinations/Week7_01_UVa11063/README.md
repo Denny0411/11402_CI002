@@ -16,6 +16,8 @@ https://onlinejudge.org/external/110/11063.pdf
 3. 2 個數列是否有相同的項？
 ```
 
+### Code
+
 Result: Wrong Answer
 
 ```cpp
@@ -128,6 +130,8 @@ bi + bj
 	isB2Seq = false
 	break
 ```
+
+### Code
 
 Result: Accepted
 
