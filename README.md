@@ -39,3 +39,12 @@
 | **Week 6** | [UVa 10062 - Tell me the frequencies!](./On-Site_Examinations/Week6_02_UVa10062/) | **Library**：`<algorithm>`, `<vector>`, `<utility>`<br>**解題技巧**：用 `std::pair` 統計 ASCII 出現次數，結合 `std::sort` 自訂規則（次數小排前面，次數相同 ASCII 大排前面）；**特別注意處理格式錯誤 (Presentation Error)**，確保最後一組測資不輸出多餘的空白行。 |
 | **Week 7** | [UVa 11063 - B2-Sequence](./On-Site_Examinations/Week7_01_UVa11063/) | **Library**：`<vector>`, `<algorithm>`<br>**解題技巧**：建立防禦性思維與提早排除 (Early Exit)，率先確認邊界條件（如數字需大於等於 1 且數列必須嚴格遞增）；透過迴圈計算所有 $b_i+b_j$ 成對和，以比對是否有重複項目。 |
 | **Week 7** | [UVa 10474 - Where is the Marble?](./On-Site_Examinations/Week7_02_UVa10474/) | **Library**：`<vector>`, `<string>`, `<algorithm>`<br>**解題技巧**：需利用 `std::sort` 先將彈珠序列作升序排序；善用 `std::to_string()` 將整數變為字串，並用 `+` 號串接輸出結果；留意最後要輸出的索引位置是從 1 開始 (1-based index)。 |
+
+### 期中考 (Midterm)
+
+| 題目 | 使用的 Library / 解題技巧與筆記 |
+| :--- | :--- |
+| [UVa 10931 - Parity](./Midterm/01_UVa10931/) | **Library**：`<vector>`<br>**解題技巧**：將十進位輸入轉換成二進制，並計算該二進制中位元 '1' 的數量 (Parity)。這題曾在 Week 6 出現過。 |
+| [UVa 12250 - Language Detection](./Midterm/02_UVa12250/) | **Library**：`<string>`, `<vector>`<br>**解題技巧**：讀取字串並利用 `if-else if` 判斷對應的語言。筆記重點：需特別注意細微的拼字錯誤（如 GERMAN），並理解線上解題系統的 `cin`/`cout` 資料流是獨立的，不需要把全部輸入存起來才輸出。 |
+| [UVa 11332 - Summing Digits](./Midterm/03_UVa11332/) | **解題技巧**：將數字的各個位數加總，直到剩下個位數。筆記重點：若使用遞迴寫法，需注意正確加上 `return` 以避免未定義行為；此外，本題可利用「數字根 (Digital Root)」的 $O(1)$ 數學公式 `(n - 1) % 9 + 1` 快速求解。 |
+| [UVa 11461 - Square Numbers](./Midterm/04_UVa11461/) | **Library**：`<cmath>`, `<algorithm>`<br>**解題技巧**：找出區間內的平方數個數。筆記重點：要記得處理起點大於終點時的 `swap`；若不想使用 $O(N)$ 的迴圈慢慢檢查，可以套用 $O(1)$ 的數學公式 `floor(sqrt(b)) - floor(sqrt(a - 1))` 來大幅提升執行效率。 |
