@@ -39,6 +39,9 @@
 | **Week 6** | [UVa 10062 - Tell me the frequencies!](./On-Site_Examinations/Week6_02_UVa10062/) | **Library**：`<algorithm>`, `<vector>`, `<utility>`<br>**摘要**：用 `std::pair` 統計 ASCII 出現次數，結合 `std::sort` 自訂規則（次數小排前面，次數相同 ASCII 大排前面）；**特別注意處理格式錯誤 (Presentation Error)**，確保最後一組測資不輸出多餘的空白行。 |
 | **Week 7** | [UVa 11063 - B2-Sequence](./On-Site_Examinations/Week7_01_UVa11063/) | **Library**：`<vector>`, `<algorithm>`<br>**摘要**：建立防禦性思維與提早排除 (Early Exit)，率先確認邊界條件（如數字需大於等於 1 且數列必須嚴格遞增）；透過迴圈計算所有 $b_i+b_j$ 成對和，以比對是否有重複項目。 |
 | **Week 7** | [UVa 10474 - Where is the Marble?](./On-Site_Examinations/Week7_02_UVa10474/) | **Library**：`<vector>`, `<string>`, `<algorithm>`<br>**摘要**：需利用 `std::sort` 先將彈珠序列作升序排序；善用 `std::to_string()` 將整數變為字串，並用 `+` 號串接輸出結果；留意最後要輸出的索引位置是從 1 開始 (1-based index)。 |
+| **Week 9** | [UVa 11559 - EventPlanning](./On-Site_Examinations/Week9_01_UVa11559/) | **Library**：`<vector>`, `<algorithm>`<br>**摘要**：尋找符合預算的最便宜旅館花費。優化重點：理解二維 `vector` 的初始化；可拔除 `vector` 與 `sort`，直接在讀取輸入的當下更新最低價格。 |
+| **Week 9** | [UVa 11364 - Optimal Parking](./On-Site_Examinations/Week9_02_UVa11364/) | **Library**：`<vector>`, `<algorithm>`<br>**摘要**：計算停車的最短步行距離，公式為 `(最大位置 - 最小位置) * 2`。優化重點：不需將位置存入陣列再排序，只需在讀取時同步更新最大與最小值即可，將時間複雜度降為 $O(N)$。 |
+| **Week 9** | [UVa 1121 - Subsequence (Bonus)](./On-Site_Examinations/Week9_03_Bonus_UVa1121/) | **Library**：`<vector>`, `<algorithm>`<br>**摘要**：尋找總和 $\ge S$ 的最短連續子數列。筆記重點：多層迴圈暴力破解會導致超時 (TLE)，應改用**滑動窗口 (Sliding Window)** 技巧，讓時間複雜度降至 $O(N)$。 |
 
 ### 期中考 (Midterm)
 
