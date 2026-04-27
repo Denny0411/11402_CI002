@@ -14,7 +14,7 @@
 
 ### 課前練習 (Before-Class Exercises)
 
-| 週次 | 題目 | 摘要 |
+| 週次 | 題目 | Library / 摘要 |
 | :--- | :--- | :--- |
 | **Week 3** | [LeetCode 231 - Power of Two](./Before-Class_Exercises/Week3_01_LeetCode231/) | **摘要**：使用迴圈搭配取餘數 (`% 2`) 與除法，判斷數字是否為 2 的次方。 |
 | **Week 4** | [LeetCode 169 - Majority Element](./Before-Class_Exercises/Week4_01_LeetCode169/) | **Library**：`<unordered_map>`<br>**摘要**：使用 Hash Map (雜湊表) 紀錄陣列中每個數字出現的次數，找出過半的元素。 |
@@ -23,7 +23,7 @@
 
 ### 上機考 (On-Site Examinations)
 
-| 週次 | 題目 | 使用的 Library / 摘要 |
+| 週次 | 題目 | Library / 摘要 |
 | :--- | :--- | :--- |
 | **Week 1** | [UVa 100 - The 3n + 1 problem](./On-Site_Examinations/Week1_01_UVa100/) | **摘要**：處理範圍時需注意 $i > j$ 的情況並使用 `swap` 修正；考量整數溢位問題，變數需宣告為 `unsigned int` 或 `long long`。 |
 | **Week 1** | [UVa 10035 - Primary Arithmetic](./On-Site_Examinations/Week1_02_UVa10035/) | **摘要**：利用陣列儲存各個位數，並模擬直式加法的進位操作 (Carry operation) 來計算進位總數。 |
@@ -42,7 +42,7 @@
 
 ### 期中考 (Midterm)
 
-| 題目 | 使用的 Library / 摘要與筆記 |
+| 題目 | Library / 摘要 |
 | :--- | :--- |
 | [UVa 10931 - Parity](./Midterm/01_UVa10931/) | **Library**：`<vector>`<br>**摘要**：將十進位輸入轉換成二進制，並計算該二進制中位元 '1' 的數量 (Parity)。這題曾在 Week 6 出現過。 |
 | [UVa 12250 - Language Detection](./Midterm/02_UVa12250/) | **Library**：`<string>`, `<vector>`<br>**摘要**：讀取字串並利用 `if-else if` 判斷對應的語言。筆記重點：需特別注意細微的拼字錯誤（如 GERMAN），並理解線上解題系統的 `cin`/`cout` 資料流是獨立的，不需要把全部輸入存起來才輸出。 |
