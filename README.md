@@ -42,6 +42,9 @@
 | **Week 9** | [UVa 11559 - EventPlanning](./On-Site_Examinations/Week9_01_UVa11559/) | **Library**：`<vector>`, `<algorithm>`<br>**摘要**：尋找符合預算的最便宜旅館花費。優化重點：理解二維 `vector` 的初始化；可拔除 `vector` 與 `sort`，直接在讀取輸入的當下更新最低價格。 |
 | **Week 9** | [UVa 11364 - Optimal Parking](./On-Site_Examinations/Week9_02_UVa11364/) | **Library**：`<vector>`, `<algorithm>`<br>**摘要**：計算停車的最短步行距離，公式為 `(最大位置 - 最小位置) * 2`。優化重點：不需將位置存入陣列再排序，只需在讀取時同步更新最大與最小值即可，將時間複雜度降為 $O(N)$。 |
 | **Week 9** | [UVa 1121 - Subsequence (Bonus)](./On-Site_Examinations/Week9_03_Bonus_UVa1121/) | **Library**：`<vector>`, `<algorithm>`<br>**摘要**：尋找總和 $\ge S$ 的最短連續子數列。筆記重點：多層迴圈暴力破解會導致超時 (TLE)，應改用**滑動窗口 (Sliding Window)** 技巧，讓時間複雜度降至 $O(N)$。 |
+| **Week 10** | [UVa 673 - Parentheses Balance](./On-Site_Examinations/Week10_01_UVa673/) | **Library**：`<stack>`, `<string>`<br>**摘要**：利用堆疊 (Stack) 檢查括號是否成對平衡。遇到左括號推入堆疊，遇到右括號則檢查堆疊頂端是否配對並彈出。筆記重點：需特別防範在堆疊為空時呼叫 `.top()` 或 `.pop()`，以避免產生未定義行為 (Undefined Behavior) 與 Runtime Error。 |
+| **Week 10** | [UVa 514 - Rails](./On-Site_Examinations/Week10_02_UVa514/) | **Library**：`<stack>`, `<vector>`<br>**摘要**：利用堆疊模擬火車車廂進站與出站的狀態。依序將車廂推入車站 (Stack)，若堆疊頂部的車廂與目標數列相符則將其彈出，最後檢查堆疊是否為空，藉此判斷是否能成功排列出期望的順序。 |
+| **Week 11** | [UVa 10935 - Throwing cards away](./On-Site_Examinations/Week11_01_UVa10935/) | **Library**：`<queue>`<br>**摘要**：使用佇列 (Queue) 模擬卡牌丟棄與移動的過程。利用迴圈將頂部的牌丟棄至另一佇列，並將下一張牌移至佇列尾端 (`push`)，反覆操作直到剩下一張牌為止。 |
 
 ### 期中考 (Midterm)
 
