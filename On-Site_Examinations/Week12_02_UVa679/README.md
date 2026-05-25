@@ -2,6 +2,8 @@
 
 ## Link
 
+https://onlinejudge.org/external/6/679.pdf
+
 ## onClass
 
 Result: Time limit exceeded
